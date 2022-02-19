@@ -30,4 +30,4 @@ function pre_add_register_fom(){
     return $response;
 }
 
-add_shortcode("pre_registro","pre_add_register_form")
+add_shortcode("pre_registro","pre_add_register_form");

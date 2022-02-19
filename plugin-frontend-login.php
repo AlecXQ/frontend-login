@@ -23,4 +23,4 @@
  add_action("wp_head","plugin_test");
  */
 
- require_once plugin_dir_path(__FILE__)."plugin/shortcode/form-registro.php";
+ require_once plugin_dir_path(__FILE__)."public/shortcode/form-registro.php";

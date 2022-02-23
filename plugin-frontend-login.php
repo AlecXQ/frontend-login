@@ -23,4 +23,9 @@
  add_action("wp_head","plugin_test");
  */
 
- require_once plugin_dir_path(__FILE__)."public/shortcode/form-registro.php";
+ //API
+require_once plugin_dir_path(__FILE__)."/includes/API/api-registro.php";
+
+//Shortcode
+require_once plugin_dir_path(__FILE__)."/public/shortcode/form-signup.php";
+require_once plugin_dir_path(__FILE__)."/public/shortcode/form-login.php";

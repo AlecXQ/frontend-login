@@ -9,8 +9,8 @@ function project_style_login(){
     wp_enqueue_style('style',plugins_url('style.css',__FILE__));
 }
 
-add_action('wp_enqueue_style', 'project_style_login');
-add_action("wp_enqueue_scripts","project_script_login");
+add_action('wp_enqueue_scripts', 'project_style_login');
+//add_action("wp_enqueue_scripts","project_script_login");
 
 function project_add_login_form(){
     

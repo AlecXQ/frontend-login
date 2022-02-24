@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', 'project_style_login');
 function project_add_login_form(){
     
     wp_enqueue_script("project-login");
-    wp_enqueue_style('style');
+    
     $response = '
     <main class="signin">
         <div class="signin__container">

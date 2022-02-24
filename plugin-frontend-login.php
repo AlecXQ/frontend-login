@@ -24,7 +24,7 @@
  */
 
  //API
-//require_once plugin_dir_path(__FILE__)."/includes/API/api-registro.php";
+require_once plugin_dir_path(__FILE__)."/includes/API/api-register.php";
 
 //Shortcode
 require_once plugin_dir_path(__FILE__)."/public/shortcode/form-signup.php";

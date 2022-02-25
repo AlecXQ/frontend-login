@@ -1,6 +1,6 @@
 <?php 
 function project_script_signup(){
-    wp_register_script("project-registro",plugins_url("../assets/js/registro.js",__FILE__));
+    wp_register_script("project-signup",plugins_url("../assets/js/signup.js",__FILE__));
 }
 
 add_action("wp_enqueue_scripts", "project_script_signup");

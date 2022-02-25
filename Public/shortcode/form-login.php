@@ -10,7 +10,7 @@ function project_style_login(){
 }
 
 add_action('wp_enqueue_scripts', 'project_style_login');
-//add_action("wp_enqueue_scripts","project_script_login");
+add_action("wp_enqueue_scripts","project_script_login");
 
 function project_add_login_form(){
     

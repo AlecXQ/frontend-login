@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", function(){
     console.log("Loaded");
     let $form = document.querySelector("#signup");
+    let $message = document.querySelector(".msg");
 
     $form.addEventListener("submit",function(e){
         e.preventDefault();
@@ -19,9 +20,11 @@ window.addEventListener("DOMContentLoaded", function(){
         .then(res => res.json())
         .then(json=> {
             console.log(json)
+            $message.innerHTML = json?.msg;
         })
         .catch(err=>{
-            console.log(`There's an error ${err}`)
+            console.log(`There's an error ${err}`);
+            
         })
     })
 })
